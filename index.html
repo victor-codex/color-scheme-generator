@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  /><link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Smythe&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div id="render">
+      <div class="container">
+        <div class="nav">
+          <input id="color-input" type="color" />
+          <select name="color" class="color-option" id="color-option">
+            <option value="monochrome">monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+          </select>
+          <button id="color-btn" class="btn">Get color scheme</button>
+        </div>
+      </div>
+      <div class="container">
+        <div id="main" class="main"></div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
